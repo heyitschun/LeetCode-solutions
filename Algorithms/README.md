@@ -1,4 +1,4 @@
-LeetCode algorithm solutions. Mostly solved in JavaScript, but sometimes other languages.
+LeetCode algorithm solutions.
 
 The solution files are named according to their URL route on LeetCode:
 
