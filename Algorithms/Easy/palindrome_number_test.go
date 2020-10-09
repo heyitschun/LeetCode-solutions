@@ -5,12 +5,12 @@ import (
 	"testing"
 )
 
-type palindomepair struct {
+type palindromepair struct {
 	n          int
 	palindrome bool
 }
 
-var palindometests = []palindomepair{
+var palindrometests = []palindromepair{
 	{121, true},
 	{-121, false},
 	{10, false},
@@ -18,7 +18,7 @@ var palindometests = []palindomepair{
 }
 
 func TestIsPalindrome(t *testing.T) {
-	for _, pair := range palindometests {
+	for _, pair := range palindrometests {
 		p := IsPalindrome(pair.n)
 		fmt.Println(pair.n, "->", p)
 		if p != pair.palindrome {
