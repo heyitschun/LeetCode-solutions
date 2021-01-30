@@ -11,5 +11,4 @@ n = [2, 2, 1, 1, 1, 2, 2]
 
 answer = majority_element(n)
 print(answer)
-# comment
 
